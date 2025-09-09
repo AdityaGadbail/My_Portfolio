@@ -17,7 +17,7 @@ const Projects = () => {
         >
           <img
             className="rounded-md "
-            src="/src/assets/projects/skillforge.jpeg"
+            src="/Images/skillforge.jpeg"
             alt="SkillForgeJPG"
            
           />
@@ -72,7 +72,7 @@ const Projects = () => {
         >
           <img
             className="rounded-md h-[176.18px]"
-            src="/src/assets/projects/MERNAUTH.jpg"
+            src="/Images/MERNAUTH.jpg"
             alt="SkillForgeJPG"
           
           />
@@ -124,7 +124,7 @@ const Projects = () => {
         >
           <img
             className="rounded-md h-[176.18px]"
-            src="/src/assets/projects/MERNAUTH.jpg"
+            src="/Images/MERNAUTH.jpg"
             alt="SkillForgeJPG"
           
           />

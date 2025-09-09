@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </div>
           <div className="">
-           <img className="rounded-full"class="h-72 w-72 object-cover rounded-full" src="src\assets\myImg.png" alt="AdityaImg" height={90} width={300}/>
+           <img className="rounded-full"class="h-72 w-72 object-cover rounded-full" src="/Images/myImg.png" alt="AdityaImg" height={90} width={300}/>
           </div>
         </div>
       </div>
