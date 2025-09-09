@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rounded square -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="#0B0E11"/>
+  <!-- Subtle abstract shape -->
+  <path d="M352 160c-48 0-96 48-144 48-32 0-64-16-96-16v160c0 0 64 16 112 16 112 0 176-80 176-160 0-16-16-48-48-48z" fill="#FFFFFF" opacity="0.08"/>
+  <!-- Initials AG -->
+  <g fill="#FFFFFF">
+    <text x="50%" y="56%" text-anchor="middle"
+          font-family="Inter, Poppins, Helvetica, Arial, sans-serif"
+          font-size="220" font-weight="800" letter-spacing="2">AG</text>
+  </g>
+</svg>

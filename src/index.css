@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Share+Tech&family=TASA+Orbiter:wght@400..800&display=swap"); 
+*{
+  font-family: "Share Tech", sans-serif;
+}
+
+/* Scrollbar size */
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* or #f9fafb for light */
+}
+
+/* Thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;   /* neutral gray */
+  border-radius: 9999px;       /* fully rounded */
+  border: 2px solid transparent; 
+  background-clip: content-box; /* gives padding inside */
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563;  /* darker gray */
+}
+
+html {
+  scroll-behavior:smooth;
+}
