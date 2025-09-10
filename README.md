@@ -1,5 +1,5 @@
 # Aditya Portfolio
-## A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Showcases projects, skills, and contact information in a clean, user-friendly interface.
+### A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Showcases projects, skills, and contact information in a clean, user-friendly interface.
 Features
 Single Page Application: Fast navigation with React and Vite.
 Responsive Design: Mobile-first, works on all devices.
