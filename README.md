@@ -12,20 +12,20 @@
 - 
 # Project Structure
 
-Aditya_Portfolio/
-├── public/
-│   ├── Icons/                # Favicon and web app icons
-│   ├── Images/               # Project and profile images
-│   └── ...                   # Manifest and SVGs
-├── src/
-│   ├── assets/               # Additional assets (fonts, etc.)
-│   ├── components/           # React components (About, Contact, etc.)
-│   ├── App.jsx               # Main app component
-│   ├── index.css             # Tailwind and global styles
-│   └── main.jsx              # Entry point
-├── index.html                # Main HTML file
-├── package.json              # Project metadata and scripts
-├── tailwind.config.js        # Tailwind CSS configuration
-├── postcss.config.js         # PostCSS configuration
-├── vite.config.js            # Vite configuration
-└── README.md                 # Project documentation
+# Getting Started
+## Prerequisites
+- Node.js (v16+ recommended)
+- npm or yarn
+
+## Installation
+1.Clone the repository:
+-git clone https://github.com/yourusername/Aditya_Portfolio.git
+-cd Aditya_Portfolio
+
+2.Install dependencies:
+-npm install
+   
+3.Start the development server:
+- npm run dev
+4.Open in your browser:
+-Visit http://localhost:5173 (default Vite port).
