@@ -18,14 +18,14 @@
 - npm or yarn
 
 ## Installation
-1.Clone the repository:
+1. Clone the repository:
 -git clone https://github.com/yourusername/Aditya_Portfolio.git
 -cd Aditya_Portfolio
 
-2.Install dependencies:
+2. Install dependencies:
 -npm install
    
-3.Start the development server:
+3. Start the development server:
 - npm run dev
-4.Open in your browser:
+4. Open in your browser:
 -Visit http://localhost:5173 (default Vite port).
