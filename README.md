@@ -9,7 +9,6 @@
 - Contact Form: Lets visitors reach out directly.
 - Custom Icons & Images: Personalized branding with SVGs and PNGs.
 - SEO Friendly: Optimized index.html and manifest files.
-- 
 # Project Structure
 
 # Getting Started
