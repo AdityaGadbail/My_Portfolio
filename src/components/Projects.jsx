@@ -16,8 +16,8 @@ const Projects = () => {
         hover:shadow-[#077a8e]  rounded-lg flex flex-col gap-2"
         >
           <img
-            className="rounded-md "
-            src="/Images/skillforge.jpeg"
+            className="rounded-md h-[176.18px]"
+            src="/Images/SC 1.png"
             alt="SkillForgeJPG"
            
           />
@@ -25,7 +25,7 @@ const Projects = () => {
             SkillForge
           </p>
           <p className="text-[#7e8791]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, even
+           SkillForge is a SaaS platform helping creators build, sell, and manage their online courses easily.
           </p>
           <div className="text-[#feffff] flex gap-1 flex-wrap">
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
@@ -53,7 +53,7 @@ const Projects = () => {
                 icon={faGithub}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <p className="text-sm">Code</p>
+              <a href="https://skillforge-course.vercel.app/" className="text-sm">Code</a>
             </a>
 
             <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/">
@@ -61,7 +61,7 @@ const Projects = () => {
                 icon={faExternalLinkAlt}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <p className="text-sm">Live Demo</p>
+              <a href="https://skillforge-course.vercel.app/" className="text-sm">Live Demo</a>
             </a>
           </div>
         </div>
