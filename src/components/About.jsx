@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="About" className="bg-[#09090b] scroll-mt-20
  p-4 ">
-      <div className="text-center mt-8">
+      <div data-animate="scaleUp" className="text-center mt-8">
         <span className="text-center  text-4xl font-semibold text-[#e5e7eb] cursor-pointer rounded-full hover:bg-[#0f0f15]">
           About Me
         </span>
@@ -12,7 +12,7 @@ const About = () => {
 
       <div className="sm:flex-row max-w-[100vw] items-center justify-center flex flex-col">
         <div className="text-white  sm:flex-row max-w-[70vw] items-center justify-around flex flex-col gap-4 mt-7">
-          <div className="sm:w-1/2  text-[#78818c] ">
+          <div data-animate="slideRight" className="sm:w-1/2  text-[#78818c] ">
             <p className="text-2xl text-[#d8e0e9] text-center ">
               Passionate Developer, Eager to Build and Learn Every Day
             </p>
@@ -25,7 +25,7 @@ const About = () => {
               deliver projects that make an impact while enhancing my skills.
             </p>
           </div>
-          <div className="">
+          <div data-animate="slideLeft" className="">
            <img className="rounded-full"class="h-72 w-72 object-cover rounded-full" src="/Images/myImg.png" alt="AdityaImg" height={90} width={300}/>
           </div>
         </div>

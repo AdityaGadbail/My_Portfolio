@@ -17,11 +17,11 @@ const Contact = () => {
   }, [state.succeeded]);
   return (
     <div id="Contact" className="bg-[#09090b]  p-10">
-      <div className="text-center  text-4xl font-semibold text-[#5549db] cursor-pointer roun ded-full ">
+      <div data-animate="scaleUp" className="text-center  text-4xl font-semibold text-[#5549db] cursor-pointer roun ded-full ">
         Get In Touch
       </div>
       <div className="flex flex-col sm:flex-row gap-5 justify-center  p-5 mt-5 ">
-        <div className="sm:max-w-[30vw]">
+        <div data-animate="slideRight" className="sm:max-w-[30vw]">
           <p className="text-slate-50 text-2xl font-semibold">
             Let's work together
           </p>
@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="sm:max-w-[30vw] flex flex-col gap-5 p-6 bg-[#35353f] rounded-lg">
+        <div data-animate="slideLeft" className="sm:max-w-[30vw] flex flex-col gap-5 p-6 bg-[#35353f] rounded-lg">
           <div className="text-3xl font-semibold text-slate-50">
             Send me a message
           </div>

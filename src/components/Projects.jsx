@@ -6,11 +6,11 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
     <div id="Projects" className="bg-[#111020] scroll-mt-20 p-12">
-      <div  className="text-4xl text-center text-[#5549db] pb-5 font-bold">
+      <div data-animate="scaleUp" className="text-4xl text-center text-[#5549db] pb-5 font-bold">
         Featured Projects
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center gap-10 justify-center mt-5">
+      <div data-animate="scaleUp" className="flex flex-col sm:flex-row items-center gap-10 justify-center mt-5">
         <div
           className="w-72 hover:scale-105 transition-all shadow-sm shadow-[#077a8e] h-auto p-3 bg-[#25242f] hover:shadow-xl 
         hover:shadow-[#077a8e]  rounded-lg flex flex-col gap-2"

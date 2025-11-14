@@ -16,17 +16,17 @@ const Skills = () => {
     <div>
       <div className="bg-[#09090b] p-4 ">
         <hr />
-        <p className="text-4xl text-center mt-7 text-[#e5e7eb] font-bold">
+        <p data-animate="scaleUp" className="text-4xl text-center mt-7 text-[#e5e7eb] font-bold">
           Skills & Expertise
         </p>
 
-        <div className="gap-10 flex flex-col sm:flex-row mt-10 pb-5 justify-center items-center">
+        <div data-animate="slideUp" className="gap-10 flex flex-col sm:flex-row mt-10 pb-5 justify-center items-center">
           <div className="bg-black cursor-pointer w-52 h-44 flex flex-col gap-5 items-center rounded-3xl justify-center hover:scale-105 transition-all shadow-sm shadow-cyan-500 hover:shadow-md hover:shadow-cyan-500 ">
             <FontAwesomeIcon
               icon={faLaptopCode}
               className="text-4xl text-blue-500"
             />
-            <p className="text-white font-semibold">Frontend Development</p>
+            <p  className="text-white font-semibold">Frontend Development</p>
             <div className="text-[#797e85] flex gap-1">
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
                 REACT

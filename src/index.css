@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Share+Tech&family=TASA+Orbiter:wght@400..800&display=swap"); 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Share+Tech&family=TASA+Orbiter:wght@400..800&display=swap"); 
 *{
   font-family: "Share Tech", sans-serif;
 }
