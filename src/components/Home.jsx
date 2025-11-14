@@ -41,7 +41,7 @@ const Home = () => {
         </a >
       </div>
       <p>
-        <div data-animate="scaleUp" className="flex gap-5 mt-5">
+        <div data-animate="slideUp" className="flex gap-5 mt-5">
         <div> 
           <a 
           href="https://github.com/AdityaGadbail"><FontAwesomeIcon  icon={faGithub} className="relative hover:-top-2 transition-all h-8 hover:text-red-500 hover:bg-slate-700 rounded-md p-1 w-8 text-slate-500" /></a>
