@@ -113,7 +113,7 @@ const Projects = () => {
                 icon={faExternalLinkAlt}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <p className="text-sm">Live Demo</p>
+              <a href="https://mern-authentication-system-jw.vercel.app/" className="text-sm">Live Demo</a>
             </a>
           </div>
         </div>
