@@ -53,7 +53,7 @@ const Projects = () => {
                 icon={faGithub}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <a href="https://skillforge-course.vercel.app/" className="text-sm">Code</a>
+              <a href="https://github.com/AdityaGadbail/Saas-Course-Platform" className="text-sm">Code</a>
             </a>
 
             <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/">
