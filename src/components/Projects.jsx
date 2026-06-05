@@ -6,11 +6,17 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
     <div id="Projects" className="bg-[#111020] scroll-mt-20 p-12">
-      <div data-animate="scaleUp" className="text-4xl text-center text-[#5549db] pb-5 font-bold">
+      <div
+        data-animate="scaleUp"
+        className="text-4xl text-center text-[#5549db] pb-5 font-bold"
+      >
         Featured Projects
       </div>
 
-      <div data-animate="scaleUp" className="flex flex-col sm:flex-row items-center gap-10 justify-center mt-5">
+      <div
+        data-animate="scaleUp"
+        className="flex flex-col  sm:flex-row items-center gap-10 justify-center mt-5"
+      >
         <div
           className="w-72 hover:scale-105 transition-all shadow-sm shadow-[#077a8e] h-auto p-3 bg-[#25242f] hover:shadow-xl 
         hover:shadow-[#077a8e]  rounded-lg flex flex-col gap-2"
@@ -19,13 +25,13 @@ const Projects = () => {
             className="rounded-md h-[176.18px]"
             src="/Images/SC 1.png"
             alt="SkillForgeJPG"
-           
           />
           <p className="text-white text-center text-lg font-semibold">
             SkillForge
           </p>
           <p className="text-[#7e8791]">
-           SkillForge is a SaaS platform helping creators build, sell, and manage their online courses easily.
+            SkillForge is a SaaS platform helping creators build, sell, and
+            manage their online courses easily.
           </p>
           <div className="text-[#feffff] flex gap-1 flex-wrap">
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
@@ -48,20 +54,36 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/">
-              <FontAwesomeIcon
-                icon={faGithub}
-                className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
-              />
-              <a href="https://github.com/AdityaGadbail/Saas-Course-Platform" className="text-sm">Code</a>
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="/"
+            >
+              <a
+                href="https://github.com/AdityaGadbail/Saas-Course-Platform"
+                className="text-sm"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
+                />
+                Code
+              </a>
             </a>
 
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="/"
+            >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <a href="https://skillforge-course.vercel.app/" className="text-sm">Live Demo</a>
+              <a
+                href="https://skillforge-course.vercel.app/"
+                className="text-sm"
+              >
+                Live Demo
+              </a>
             </a>
           </div>
         </div>
@@ -74,13 +96,13 @@ const Projects = () => {
             className="rounded-md h-[176.18px]"
             src="/Images/MERNAUTH.jpg"
             alt="SkillForgeJPG"
-          
           />
           <p className="text-white text-center text-lg font-semibold">
             Mern-Auth System
           </p>
           <p className="text-[#7e8791]">
-            A secure MERN authentication system with JWT, bcrypt, and role-based access control for users.
+            A secure MERN authentication system with JWT, bcrypt, and role-based
+            access control for users.
           </p>
           <div className="text-[#feffff] flex gap-1 flex-wrap">
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
@@ -100,7 +122,10 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="https://github.com/AdityaGadbail/MERN-AUTHENTICATION-SYSTEM-USING-JWT-AND-HTTP-ONLY-COOKIE">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="https://github.com/AdityaGadbail/MERN-AUTHENTICATION-SYSTEM-USING-JWT-AND-HTTP-ONLY-COOKIE"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
@@ -108,31 +133,39 @@ const Projects = () => {
               <p className="text-sm">Code</p>
             </a>
 
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/demo">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="/demo"
+            >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <a href="https://mern-authentication-system-jw.vercel.app/" className="text-sm">Live Demo</a>
+              <a
+                href="https://mern-authentication-system-jw.vercel.app/"
+                className="text-sm"
+              >
+                Live Demo
+              </a>
             </a>
           </div>
         </div>
 
-         <div
+        <div
           className="w-72 hover:scale-105 transition-all shadow-sm shadow-[#077a8e] h-auto p-3 bg-[#25242f] hover:shadow-xl 
         hover:shadow-[#077a8e]  rounded-lg flex flex-col gap-2"
         >
           <img
-            className="rounded-md h-[176.18px]"
-            src="/Images/MERNAUTH.jpg"
-            alt="SkillForgeJPG"
-          
+            className="rounded-md h-[176.18px] w-full object-cover"
+            src="/Images/CoffeeAndToffee.png"
+            alt="CoffeeAndToffee"
           />
           <p className="text-white text-center text-lg font-semibold">
-            Mern-Auth System
+            CoffeeAndToffee
           </p>
           <p className="text-[#7e8791]">
-            A secure MERN authentication system with JWT, bcrypt, and role-based access control for users.
+            A creator monetization and community engagement platform built with
+            Node/Express and React.
           </p>
           <div className="text-[#feffff] flex gap-1 flex-wrap">
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
@@ -148,11 +181,15 @@ const Projects = () => {
               MongoDB
             </span>
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
-              Nodemailer
+              Cloudinary
             </span>
+            <span className=" text-xs bg-neutral-900 rounded-md p-1">JWT</span>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="https://github.com/AdityaGadbail/MERN-AUTHENTICATION-SYSTEM-USING-JWT-AND-HTTP-ONLY-COOKIE">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="https://github.com/AdityaGadbail/CoffeeAndToffee"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
@@ -160,12 +197,74 @@ const Projects = () => {
               <p className="text-sm">Code</p>
             </a>
 
-            <a className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2" href="/demo">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="/demo"
+            >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
                 className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
               />
-              <p className="text-sm">Live Demo</p>
+              <a
+                href="https://coffee-and-toffee-three.vercel.app/"
+                className="text-sm"
+              >
+                Live Demo
+              </a>
+            </a>
+          </div>
+        </div>
+
+        <div
+          className="w-72 hover:scale-105 transition-all shadow-sm shadow-[#077a8e] h-auto p-3 bg-[#25242f] hover:shadow-xl 
+        hover:shadow-[#077a8e]  rounded-lg flex flex-col gap-2"
+        >
+          <img
+            className="rounded-md h-[176.18px] w-full object-cover"
+            src="/Images/Spotify.png"
+            alt="Spotify"
+          />
+          <p className="text-white text-center text-lg font-semibold">
+            Spotify Home Page
+          </p>
+          <p className="text-[#7e8791]">
+            Responsive Spotify landing page clone built with pure HTML and CSS,
+            featuring sidebar navigation, content cards.
+          </p>
+          <div className="text-[#feffff] flex  gap-1 flex-wrap">
+            <span className=" text-xs bg-neutral-900 rounded-md p-1">
+              HTML:5
+            </span>
+            <span className=" text-xs bg-neutral-900 rounded-md p-1">
+              CSS
+            </span>
+          </div>
+          <div className="flex justify-center items-center gap-3">
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="https://github.com/AdityaGadbail/Spotify-LandingPage"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
+              />
+              <p className="text-sm">Code</p>
+            </a>
+
+            <a
+              className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
+              href="/demo"
+            >
+              <FontAwesomeIcon
+                icon={faExternalLinkAlt}
+                className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
+              />
+              <a
+                href="https://spotify-landing-page-beta.vercel.app/"
+                className="text-sm"
+              >
+                Live Demo
+              </a>
             </a>
           </div>
         </div>
