@@ -1,11 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPython } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+// import { faPython } from "@fortawesome/free-solid-svg-icons";
 import { faServer } from "@fortawesome/free-solid-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faGit } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
 
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { faToolbox } from "@fortawesome/free-solid-svg-icons";
@@ -16,17 +17,24 @@ const Skills = () => {
     <div>
       <div className="bg-[#09090b] p-4 ">
         <hr />
-        <p data-animate="scaleUp" className="text-4xl text-center mt-7 text-[#e5e7eb] font-bold">
+        <p
+          data-animate="scaleUp"
+          className="text-4xl text-center mt-7 text-[#e5e7eb] font-bold"
+        >
           Skills & Expertise
         </p>
 
-        <div data-animate="slideUp" className="gap-10 flex flex-col sm:flex-row mt-10 pb-5 justify-center items-center">
+        <div
+          data-animate="slideUp"
+          className="gap-10 flex flex-col sm:flex-row mt-10 pb-5 justify-center items-center"
+        >
           <div className="bg-black cursor-pointer w-52 h-44 flex flex-col gap-5 items-center rounded-3xl justify-center hover:scale-105 transition-all shadow-sm shadow-cyan-500 hover:shadow-md hover:shadow-cyan-500 ">
             <FontAwesomeIcon
               icon={faLaptopCode}
               className="text-4xl text-blue-500"
             />
-            <p  className="text-white font-semibold">Frontend Development</p>
+           
+            <p className="text-white font-semibold">Frontend Development</p>
             <div className="text-[#797e85] flex gap-1">
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
                 REACT
@@ -61,6 +69,26 @@ const Skills = () => {
               </span>
             </div>
           </div>
+          
+          <div className="bg-black cursor-pointer w-52 h-44 flex flex-col gap-5 items-center rounded-3xl justify-center hover:scale-105 transition-all shadow-sm shadow-cyan-500 hover:shadow-md hover:shadow-cyan-500 ">
+            <FontAwesomeIcon
+              icon={faPython}
+              className="text-4xl text-blue-500"
+            />
+            <p className="text-white font-semibold">Data Analysis</p>
+            <div className="text-[#797e85] flex gap-1">
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Python
+              </span>
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Numpy
+              </span>
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Pandas
+              </span>
+              
+            </div>
+          </div>
 
           <div className="bg-black cursor-pointer w-52 h-44 flex flex-col gap-5 items-center rounded-3xl justify-center hover:scale-105 transition-all shadow-sm shadow-cyan-500 hover:shadow-md hover:shadow-cyan-500 ">
             <FontAwesomeIcon
@@ -70,13 +98,13 @@ const Skills = () => {
             <p className="text-white font-semibold">Database</p>
             <div className="text-[#797e85] flex gap-1">
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
-               MongoDB
+                MongoDB
               </span>
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
                 Moongose
               </span>
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
-                Atlas
+                SQL
               </span>
             </div>
           </div>
@@ -88,9 +116,12 @@ const Skills = () => {
             />
             <p className="text-white font-semibold">Git & Github</p>
             <div className="text-[#797e85] flex gap-2">
-               <span className=" text-xs bg-neutral-900 rounded-md p-1">Git</span>
-               <span className=" text-xs bg-neutral-900 rounded-md p-1">Github</span>
-           
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Git
+              </span>
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Github
+              </span>
             </div>
           </div>
 
@@ -101,10 +132,15 @@ const Skills = () => {
             />
             <p className="text-white font-semibold">Tools</p>
             <div className="text-[#797e85] flex gap-1">
-               <span className=" text-xs bg-neutral-900 rounded-md p-1">Vscode</span>
-               <span className=" text-xs bg-neutral-900 rounded-md p-1">Postman</span>
-               <span className=" text-xs bg-neutral-900 rounded-md p-1">Compass</span>
-           
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Vscode
+              </span>
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Postman
+              </span>
+              <span className=" text-xs bg-neutral-900 rounded-md p-1">
+                Compass
+              </span>
             </div>
           </div>
         </div>

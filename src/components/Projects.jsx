@@ -238,6 +238,7 @@ const Projects = () => {
             <span className=" text-xs bg-neutral-900 rounded-md p-1">
               CSS
             </span>
+            <div></div>
           </div>
           <div className="flex justify-center items-center gap-3">
             <a
