@@ -133,7 +133,7 @@ const Skills = () => {
             <p className="text-white font-semibold">Tools</p>
             <div className="text-[#797e85] flex gap-1">
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
-                Vscode
+                Canva
               </span>
               <span className=" text-xs bg-neutral-900 rounded-md p-1">
                 Postman
