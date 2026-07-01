@@ -56,18 +56,15 @@ const Projects = () => {
           <div className="flex justify-center items-center gap-3">
             <a
               className="bg-white text-[#8b5cf6] font-semibold text-sm w-20 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
-              href="/"
+              href="https://github.com/AdityaGadbail/Saas-Course-Platform/"
             >
-              <a
-                href="https://github.com/AdityaGadbail/Saas-Course-Platform"
-                className="text-sm"
-              >
+             
                 <FontAwesomeIcon
                   icon={faGithub}
                   className=" h-4 w-4 bg-white rounded-md p-1 text-slate-500"
                 />
-                Code
-              </a>
+                <p className="text-sm">Code</p>
+            
             </a>
 
             <a
