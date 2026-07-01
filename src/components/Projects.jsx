@@ -72,7 +72,7 @@ const Projects = () => {
 
             <a
               className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
-              href="/"
+              href="https://skillforge-course.vercel.app/"
             >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
@@ -135,7 +135,7 @@ const Projects = () => {
 
             <a
               className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
-              href="/demo"
+              href="https://mern-authentication-system-jw.vercel.app/"
             >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
@@ -199,7 +199,7 @@ const Projects = () => {
 
             <a
               className="bg-white text-[#8b5cf6] font-semibold text-sm w-32 p-1 rounded-md border border-[#8b5cf6] hover:text-white hover:bg-[#8b5cf6] transition-all flex items-center justify-center gap-1 mt-2"
-              href="/demo"
+              href="https://coffee-and-toffee-three.vercel.app/"
             >
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
