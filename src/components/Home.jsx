@@ -13,7 +13,7 @@ const Home = () => {
       <span data-animate="scaleUp" className="border border-gray-800 p-2 w-20 h-20 text-[#9937cb] font-bold rounded-full flex justify-center items-center text-2xl bg-slate-100">
         AD
       </span>
-      {/* <p data-animate="slideRight" className="mt-2 text-4xl font-bold text-[#47a0d7] ">Aditya Gadbail</p> */}
+      
        <h1
   data-animate="slideRight"
   className="mt-2 text-4xl font-bold text-[#47a0d7]"
