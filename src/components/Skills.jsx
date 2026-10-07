@@ -15,7 +15,7 @@ import { faWrench } from "@fortawesome/free-solid-svg-icons";
 const Skills = () => {
   return (
     <div>
-      <div className="bg-[#09090b] p-4 ">
+      <div id="Skills" className="bg-[#09090b] scroll-mt-20 p-4 ">
         <hr />
         <p
           data-animate="scaleUp"
